@@ -1,0 +1,59 @@
+/* Базовий фон */
+body {
+    background-color: #f0f0f0;
+}
+
+/* 0. div > p (вага: 2) */
+div>p {
+    background-color: yellow;
+}
+
+/* 1. тег */
+h1 {
+    color: red;
+}
+
+/* 2. клас */
+.class-example {
+    color: green;
+}
+
+/* 3. id */
+#id-example {
+    color: blue;
+}
+
+/* 4. атрибут */
+[data-color] {
+    color: orange;
+}
+
+/* 5. вкладені селектори (section .nested — вага: 11) */
+section .nested {
+    color: purple;
+}
+
+/* 6. дочірній селектор ul > .child (вага: 11) */
+ul>.child {
+    color: teal;
+}
+
+/* 7. послідовність p.seq (вага: 11) */
+p.seq {
+    color: brown;
+}
+
+/* 8. комбінація: тег + клас + атрибут (вага: 21) */
+article.combo[title] {
+    color: darkgreen;
+}
+
+/* 9. комбінація: тег + id + клас (вага: 111) */
+div#combo-id.combo-class {
+    color: navy;
+}
+
+/* 10. p з id (вага: 101) */
+p#last-element {
+    color: crimson;
+}
