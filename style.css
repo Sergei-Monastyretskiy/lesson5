@@ -5,7 +5,7 @@ body {
 
 /* 0. div > p (вага: 2) */
 div>p {
-    background-color: yellow;
+    background-color: rgb(17, 0, 255);
 }
 
 /* 1. тег */
